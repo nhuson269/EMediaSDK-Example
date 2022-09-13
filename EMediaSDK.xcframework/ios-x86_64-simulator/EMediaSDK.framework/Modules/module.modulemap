@@ -1,0 +1,11 @@
+framework module EMediaSDK {
+  umbrella header "EMediaSDK.h"
+
+  export *
+  module * { export * }
+}
+
+module EMediaSDK.Swift {
+    header "EMediaSDK-Swift.h"
+    requires objc
+}
